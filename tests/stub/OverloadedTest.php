@@ -1,6 +1,6 @@
 <?php
 
-use Attraktiv\Polymorphisme\Overloading\Method;
+use Attraktiv\Polymorphism\Overloading\Method;
 
 class Overloaded extends Method
 {

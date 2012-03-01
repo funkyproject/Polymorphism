@@ -61,7 +61,7 @@ class Car implements VisitableInterface
     }
 }
 
-class CarVisitor extends Attraktiv\Polymorphisme\Overloading\Method implements VisitorInterface
+class CarVisitor extends Attraktiv\Polymorphism\Overloading\Method implements VisitorInterface
 {
     /**
      * @Overload(method="visit")

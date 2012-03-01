@@ -12,14 +12,14 @@
          bootstrap="tests/bootstrap.php"
 >
   <testsuites>
-    <testsuite name="Polymorphisme Test Suite">
-      <directory>./tests/Polymorphisme</directory>
+    <testsuite name="Polymorphism Test Suite">
+      <directory>./tests/Polymorphism</directory>
     </testsuite>
   </testsuites>
 
   <filter>
     <whitelist>
-      <directory suffix=".php">./lib/Polymorphisme/</directory>
+      <directory suffix=".php">./lib/Polymorphism/</directory>
     </whitelist>
   </filter>
 </phpunit>
