@@ -1,0 +1,21 @@
+{
+    "name": "attraktiv/Polymorphism",
+    "type": "library",
+    "description": "Add overload method in PHP",
+    "keywords": ["php", "overloading method"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurélien Fontaine",
+            "email": "afontaine@attraktiv.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Attraktiv\\Polymorphism": "lib/Polymorphism" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Attraktiv"
+}
