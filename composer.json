@@ -16,6 +16,5 @@
     "autoload": {
         "psr-0": { "Attraktiv\\Polymorphism": "lib/" }
     },
-    "minimum-stability": "dev",
-    "target-dir": ""
+    "minimum-stability": "dev"
 }
