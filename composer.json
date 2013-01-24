@@ -1,5 +1,5 @@
 {
-    "name": "attraktiv/Polymorphism",
+    "name": "attraktiv/polymorphism",
     "type": "library",
     "description": "Add overload method in PHP",
     "keywords": ["php", "overloading method"],
