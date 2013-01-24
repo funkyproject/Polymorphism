@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . './../lib/Polymorphism/Transtypage.php';
-require_once __DIR__ . './../lib/Polymorphism/Overloading/Method.php';
-require_once __DIR__ . './../lib/Polymorphism/Overloading/BadMethodOverloadedException.php';
+require_once __DIR__ . './../lib/Attraktiv/Polymorphism/Transtypage.php';
+require_once __DIR__ . './../lib/Attraktiv/Polymorphism/Overloading/Method.php';
+require_once __DIR__ . './../lib/Attraktiv/Polymorphism/Overloading/BadMethodOverloadedException.php';
 
 require_once __DIR__ . '/stub/TestInterface.php';
 require_once __DIR__ . '/stub/TestA.php';
