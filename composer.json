@@ -14,7 +14,7 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "Attraktiv\\Polymorphism": "/lib/Attraktiv/Polymorphism" }
+        "psr-0": { "Attraktiv\\Polymorphism": "lib" }
     },
     "minimum-stability": "dev",
     "target-dir": ""
