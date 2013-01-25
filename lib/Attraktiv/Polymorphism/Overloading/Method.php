@@ -42,7 +42,7 @@ abstract class Method
     private function findMetaOverloadMethod($comment, $methodName)
     {
         if (preg_match("/@Overload\(method=\"(.+)\"/", $comment, $overloadedMethod)) {
-            preg_match_all("/@param\s+([a-zA-Z0-9_]*)\s+/", $comment, $params);
+            preg_match_all("/@param\s+([a-zA-Z0-9_\\\]*)\s+/", $comment, $params);
 
             $this->overloadedMethod[$overloadedMethod[1]][] = array('params' => $params[1], 'method' => $methodName);
         }
